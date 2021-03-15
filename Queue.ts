@@ -18,12 +18,12 @@ export default class Queue {
     return !this.isEmpty() ? this.items[0] : new Error('Queue is not full');
 }
 
-  // Uma propriedade para verificar se a fila está vazia
+  // Uma método para verificar se a fila está vazia
   public isEmpty() {
     return this.items.length === 0;
   }
 
-  // Uma propriedade para verificar se o tamanho da fila
+  // Uma método para verificar se o tamanho da fila
   public getSize() {
     return this.items.length;
   }
